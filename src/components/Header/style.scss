@@ -1,0 +1,44 @@
+.header {
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #1d1d1d;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 112rem;
+        margin: 0 auto;
+        padding: 1.5rem 0;
+        width: 90%;
+    }
+
+    .logo {
+        font-size: 3.2rem;
+        text-transform: uppercase;
+        color: #fff;
+        transition: all 0.6s ease-in-out;
+        font-weight: bold;
+
+        &:hover {
+            color: var(--clr-primary);
+            letter-spacing: 0.2rem;
+        }
+    }
+
+    .menu-list {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+    }
+
+    .menu-list__item a{
+        color: #ccc;
+        font-size: 1.6rem;
+        transition: color 0.6s ease;
+
+        &:hover {
+            color: var(--clr-primary);
+        }
+
+    }
+}
