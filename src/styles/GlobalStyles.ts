@@ -11,7 +11,9 @@ export const GlobalStyles = createGlobalStyle`
         font-size: 62.5%;
     }
 
-    body {
+    body, input, button {
+        font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
         font-size: 1.6rem;
+        background-color: ${props => props.theme.colors.background};
     }
 `
