@@ -5,6 +5,7 @@ export const Header = styled.header`
     top: 30px;
     right: 0;
     width: 100%;
+    z-index: 2;
 
     @media (max-width: 990px) {
         display: none;

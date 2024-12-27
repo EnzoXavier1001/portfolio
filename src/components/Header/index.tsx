@@ -10,11 +10,11 @@ export const Header = () => {
                         <img src={logoImg} alt="Enzo Xavier" />
                     </C.Brand>
                     <C.MenuList>
-                        <li><a href="#about">Home</a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#skills">Habilidades</a></li>
                         <li><a href="#projects">Projetos</a></li>
-                        <li><a href="#works">Trabalhei</a></li>
+                        <li><a href="#carrer">Carreira</a></li>
                     </C.MenuList>
                 </C.Menu>
             </C.Container>
