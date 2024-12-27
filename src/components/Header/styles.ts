@@ -5,6 +5,10 @@ export const Header = styled.header`
     top: 30px;
     right: 0;
     width: 100%;
+
+    @media (max-width: 990px) {
+        display: none;
+    }
 `
 
 export const Container = styled.div`
