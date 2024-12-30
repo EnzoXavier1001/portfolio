@@ -12,7 +12,10 @@ export const Projects = () => {
                     <img src={lpAdvogadaImg} alt="Dra Juliana Brassoli" />
                     <h2>Landing Page para Advogada</h2>
                     <p>Criação de uma Landing Page Responsiva, desenvolvida com HTML, CSS, JavaScript e Bootstrap, visando otimizar a experiência do usuário e garantir um design moderno e funcional.</p>
-                    <a href="https://julianabrassoli.com.br/" target='_blank'>Preview</a>
+                    <footer>
+                        <a href="https://julianabrassoli.com.br/" target='_blank'>Preview</a>
+                        <a href="https://github.com/EnzoXavier1001/lp-juliana-bassoli" target='_blank'>Repositório</a>
+                    </footer>
                 </C.CardProjects>
                 <C.CardProjects>
                     <img src={dashLimongi} alt="Dra Juliana Brassoli" />

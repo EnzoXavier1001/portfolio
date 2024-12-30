@@ -7,7 +7,7 @@ export const Hero = () => {
         <C.HeroSection>
             <C.HeroContainer>
                 <C.HeroAbout>
-                    <h1>Enzo <br /> Xavier</h1>
+                    <h1>Enzo Xavier</h1>
                     <span>Front-end Developer | AEM Publisher | Cheil Brazil </span>
 
                     <C.SocialMedia>

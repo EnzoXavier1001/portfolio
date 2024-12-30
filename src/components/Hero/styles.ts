@@ -17,13 +17,17 @@ export const HeroContainer = styled.div`
     width: 100%;
 
     img {
-        height: 400px;
+        height: 40rem;
         clip-path: circle();
     }
 
     @media (max-width: 990px) {
         gap: 2.4rem;
         flex-direction: column;
+
+        > img {
+            height: 30rem;
+        }
     }
 `
 
@@ -36,6 +40,7 @@ export const HeroAbout = styled.div`
     h1 {
         font-size: 8.2rem;
         line-height: 1.1;
+        max-width: 300px;
     }
 
     span {
@@ -45,7 +50,13 @@ export const HeroAbout = styled.div`
 
     @media (max-width: 990px) {
         order: 1;
+        justify-content: center;
+        text-align: center;
         align-items: center;
+
+        > h1 {
+            font-size: 4.2rem;
+        }
     }
 
 `

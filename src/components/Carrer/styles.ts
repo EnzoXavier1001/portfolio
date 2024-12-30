@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CarrerSection = styled.div``
+export const CarrerSection = styled.section``
 
 export const CarrerContainer = styled.div`
     max-width: 112rem;
@@ -29,7 +29,7 @@ export const CardArticle = styled.article`
     justify-content: space-between;
     gap: 1.2rem;
 
-    height: 300px;
+    height: 30rem;
     transition: all 0.3s ease;
 
     p {
@@ -45,6 +45,7 @@ export const CardArticle = styled.article`
     &:hover {
         background-color: ${props => props.theme.colors['--blue-300']};
     }
+
 `
 
 export const EducationWrapper = styled.div``
@@ -55,4 +56,8 @@ export const CarrerContent = styled.div`
     gap: 3.2rem;
 
     margin-top: 4.4rem;
+
+    @media (max-width: 1141px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 `

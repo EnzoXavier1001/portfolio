@@ -28,6 +28,10 @@ export const CardArticle = styled.article`
     &:hover {
         background-color: ${props => props.theme.colors['--blue-300']};
     }
+
+    @media (max-width: 1141px) {
+        height: auto;
+    }
 `
 
 export const EducationWrapper = styled.div``

@@ -13,7 +13,7 @@ export const ProjectsSection = styled.section`
 
 export const ProjectsContainer = styled.div`
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 3.2rem;
     margin-top: 4.2rem;
 
@@ -42,6 +42,12 @@ export const CardProjects = styled.article`
 
     p {
         color: #ccc;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
 `
