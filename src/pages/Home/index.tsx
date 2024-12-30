@@ -1,3 +1,4 @@
+import { About } from "../../components/About"
 import { Carrer } from "../../components/Carrer"
 import { Header } from "../../components/Header"
 import { Hero } from "../../components/Hero"
@@ -10,6 +11,7 @@ export const Home = () => {
             <Header />
             <Hero />
             <Skills />
+            <About />
             <Carrer />
             <Projects />
         </>

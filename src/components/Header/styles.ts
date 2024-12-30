@@ -13,7 +13,7 @@ export const Header = styled.header`
 `
 
 export const Container = styled.div`
-    max-width: 112rem;
+    max-width: 140rem;
     margin: 0 auto;
     background-color: ${props => props.theme.colors['--blue-900']};
     padding: 0.6rem 2.4rem;

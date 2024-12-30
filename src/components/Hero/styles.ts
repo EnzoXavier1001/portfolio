@@ -5,7 +5,7 @@ export const HeroSection = styled.section`
     height: 100vh;
     display: flex;
     align-items: center;
-    max-width: 112rem;
+    max-width: 140rem;
     width: 90%;
     margin: 0 auto;
 `

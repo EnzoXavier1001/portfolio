@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const CarrerSection = styled.section``
 
 export const CarrerContainer = styled.div`
-    max-width: 112rem;
+    max-width: 140rem;
     margin: 0 auto;
     color: #fff;
     width: 90%;
