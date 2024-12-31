@@ -29,7 +29,7 @@ export const CardArticle = styled.article`
     justify-content: space-between;
     gap: 1.2rem;
 
-    height: 30rem;
+    height: 35rem;
     transition: all 0.3s ease;
 
     p {
