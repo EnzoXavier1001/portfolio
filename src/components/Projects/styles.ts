@@ -59,7 +59,7 @@ export const CardProjects = styled.article`
         justify-content: space-between;
         padding: 1.8rem;
         background-color: ${props => props.theme.colors['--blue-900']};
-        height: 25.0rem;
+        height: 28.0rem;
         border-radius: 0 0 12px 12px;
     }
 

@@ -11,7 +11,7 @@ export const AboutContainer = styled.section`
     width: 90%;
 
     > img {
-        height: 40.0rem;
+        height: 60.0rem;
     }
 
     h1 {
@@ -29,9 +29,19 @@ export const AboutContainer = styled.section`
         margin: 1.4rem 0;
     }
 
-    @media (max-width: 910px) {
+    @media (max-width: 1200px) {
         flex-direction: column;
         text-align: center;
+
+        > img {
+            height: 50.0rem;
+        }
+    }
+
+    @media (max-width: 500px) {
+        > img {
+            height: 30.0rem;
+        }
     }
 `
 
@@ -39,5 +49,6 @@ export const AboutContent = styled.div`
     p {
         color: #ccc;
         font-size: 1.8rem;
+        margin-bottom: 1.4rem;
     }
 `
